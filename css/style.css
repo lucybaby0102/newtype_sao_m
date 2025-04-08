@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+.nav-bar {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  padding: 7px 0px;
+  background: url(../images/nav-bg-s.png) repeat-x;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .logo {
+  width: 33.333333%;
+  max-width: 350px;
+  margin: auto;
+}
+.nav-bar .back,
+.nav-bar .download {
+  width: 100%;
+  max-width: 170px;
+}
+.top-bn {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  background: url("../images/top-bn-bg.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.game-logo {
+  width: 53.157895%;
+  position: absolute;
+  top: 9%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 8;
+}
+.woman-group {
+  display: flex;
+  justify-content: flex-end;
+}
+.woman {
+  width: 70%;
+}
+.woman img {
+  width: 100%;
+  vertical-align: middle;
+}
+.woman-1 {
+  position: relative;
+  flex-grow: 1;
+  transform: scale(1) translate(-15%, 11%);
+  z-index: 3;
+}
+.woman-2 {
+  position: absolute;
+  z-index: 3;
+  bottom: 3%;
+  transform:scale(2.3) translate(2%, 1%);
+}
+.btn-download,
+.circle-group {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 9;
+}
+.circle-group {
+  padding-bottom: 20px;
+}
+.pv {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  background: url(../images/video-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.pv .title {
+  padding-top: 12%;
+}
+.content {
+  position: relative;
+  padding: 9% 0 10% 0;
+}
+.game-video {
+  max-width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+.promo-code {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: url(../images/bn3-bg.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.promo-code .title {
+  width: 100%;
+  max-width: 660px;
+  margin: auto;
+  padding: 25px 0;
+  position: relative;
+  z-index: 10;
+}
+.promo-code .title img {
+  width: 100%;
+  vertical-align: middle;
+}
+.props {
+  width: 100%;
+  max-width: 760px;
+  transform: scale(2) translateX(10%);
+}
+.props img {
+  width: 100%;
+  vertical-align: middle;
+}
+.txt-group {
+  width: 100%;
+  background: url(../images/props-wordbg.png);
+  background-size: 100% 100%;
+  padding: 11% 0;
+  position: relative;
+  transform: translateY(-15%);
+}
+.txt-group .txt-contant {
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 0px 10px;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.txt-contant span {
+  color: #ff0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-right: 15px;
+}
+.code-title {
+  margin-top: 1em;
+  text-align: center;
+  font-weight: 700;
+}
+.code-contant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;
+}
+#code-number {
+  border-radius: 20px;
+  padding: 0.5em 2.7em;
+  margin-top: 6px;
+  background-color: #fff;
+  position: relative;
+  color: #000;
+}
+.code-title button {
+  width: 60px;
+  padding: 2px;
+  font-size: 3vmin;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.code-title span {
+  color: #000;
+  font-weight: 300;
+  font-size: 3.5vw;
+  color: #fff;
+}
+.slideshow {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  padding: 50px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/story-bg.jpg) repeat-y;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slideshow .title {
+  padding-bottom: 15px;
+}
+.swiper-container{
+  width: 100%;
+  position: relative;
+}
+.sw-btn{
+  height: 136px;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  transform: scale(0.4);
+  z-index: 10;
+}
+.swiper-button-next{
+  right: 0;
+}
+.carousel{
+  width: 100%;
+  padding-bottom: 10%;
+}
+.footer-content{
+  padding-top: 8%;
+}
+.game-story .title {
+  padding: 10px;
+}
+.game-story .txt{
+  color: #fff;
+  text-align: justify;
+}
+.game-story .txt,
+.footer-txt {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px 15px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.game-story .txt {
+  line-height: 1.8;
+  font-size: 35px;
+  font-weight: 500;
+}
+.footer {
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
+  background: url(../images/footer-bg.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content .logo {
+  width: 35%;
+  margin: auto;
+}
+.footer-txt,
+.copyright {
+  font-size: 28px;
+  text-align: center;
+}
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 3% 0;
+}
+@media screen and (max-width: 759px) {
+  .promo-code .title {
+    max-width: 86.842%;
+  }
+  .txt-group .txt-contant {
+    font-size: 5vw;
+  }
+  .game-story .txt {
+    font-size: 5vw;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  .footer-txt,
+  .copyright {
+    font-size: 3.684vw;
+  }
+}
